@@ -27,7 +27,7 @@ Phase 2: The Bypass (Header Spoofing)
 
 We need to convince the server that our external request originated from the internal management network (127.0.0.1).
 
-Use a Proxy Tool (e.g., Burp Suite Repeater) or a Header Editor (e.g., ModHeader).
+Use a Proxy Tool (e.g., Burp Suite Repeater) .
 
 Intercept or modify the GET request to /admin.
 
