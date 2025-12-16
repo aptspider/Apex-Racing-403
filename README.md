@@ -5,7 +5,7 @@
 The Admin Panel (/admin) is protected by an Access Control List (ACL) that restricts access to the internal network (127.0.0.1) only. As an external attacker, you are blocked with a 403 Forbidden error, even before authentication (login).
 
 This lab demonstrates how trusting the X-Forwarded-For header can lead to a critical firewall bypass.
-
+---
 **Setup**
 ``
 
@@ -13,10 +13,9 @@ npm install
 
 node server.js
 
-``
 
 Access: http://localhost:3000
-
+---
 ** Exploit Walkthrough**
 
 Phase 1: Confirmation (The 403 Block)
@@ -45,7 +44,7 @@ Phase 3: The Result (Access Granted)
 Response: The server will now respond with a 302 Found redirecting you to /admin/login.
 
 Browser: If you used a browser extension, the page will instantly change from the 403 screen to the Race Control Secure Login page.
-``
+---
 
 **Disclaimer**
 This application contains intentional security vulnerabilities.
