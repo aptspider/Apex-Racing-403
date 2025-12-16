@@ -13,10 +13,9 @@ npm install
 
 node server.js
 
-
 Access: http://localhost:3000
 ---
-** Exploit Walkthrough**
+**Exploit Walkthrough**
 
 Phase 1: Confirmation (The 403 Block)
 
@@ -43,7 +42,7 @@ Phase 3: The Result (Access Granted)
 
 Response: The server will now respond with a 302 Found redirecting you to /admin/login.
 
-Browser: If you used a browser extension, the page will instantly change from the 403 screen to the Race Control Secure Login page.
+Note: If you used a browser extension, the page will instantly change from the 403 screen to the Race Control Secure Login page.
 ---
 
 **Disclaimer**
