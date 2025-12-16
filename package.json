@@ -1,7 +1,7 @@
 {
   "name": "apex-racing-xss",
   "version": "1.0.0",
-  "description": "F1 Themed Blind XSS Lab",
+  "description": "F1 Themed 403 & Blind XSS Lab",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
